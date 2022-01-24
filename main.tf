@@ -9,7 +9,7 @@ resource "aws_instance" "ec2_example" {
    key_name= "isai"
 
    tags = {
-           Name = "Terraform EC2"
+           Name = "Ansible"
    }
 
 }
